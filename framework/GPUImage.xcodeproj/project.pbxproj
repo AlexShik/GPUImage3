@@ -301,6 +301,7 @@
 		7B72DB2B2103CED000A91156 /* AddBlend.metal in Sources */ = {isa = PBXBuildFile; fileRef = 7B72DB2A2103CED000A91156 /* AddBlend.metal */; };
 		7B72DB2C2103CED000A91156 /* AddBlend.metal in Sources */ = {isa = PBXBuildFile; fileRef = 7B72DB2A2103CED000A91156 /* AddBlend.metal */; };
 		8D0DCB6E22A15529005147B3 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0DCB6D22A15529005147B3 /* Metal.framework */; };
+		8D0DCB7022A15815005147B3 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0DCB6F22A15815005147B3 /* CoreVideo.framework */; };
 		96F24FEF22007D6D0042E78D /* MedianFilter.metal in Sources */ = {isa = PBXBuildFile; fileRef = 96F24FED22007D6C0042E78D /* MedianFilter.metal */; };
 		96F24FF022007D6D0042E78D /* MedianFilter.metal in Sources */ = {isa = PBXBuildFile; fileRef = 96F24FED22007D6C0042E78D /* MedianFilter.metal */; };
 		96F24FF122007D6D0042E78D /* MedianFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F24FEE22007D6C0042E78D /* MedianFilter.swift */; };
@@ -534,6 +535,7 @@
 		7B72DB272103CEB900A91156 /* AddBlend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddBlend.swift; path = Source/Operations/AddBlend.swift; sourceTree = "<group>"; };
 		7B72DB2A2103CED000A91156 /* AddBlend.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; name = AddBlend.metal; path = Source/Operations/AddBlend.metal; sourceTree = "<group>"; };
 		8D0DCB6D22A15529005147B3 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		8D0DCB6F22A15815005147B3 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		96F24FED22007D6C0042E78D /* MedianFilter.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; name = MedianFilter.metal; path = Source/Operations/MedianFilter.metal; sourceTree = "<group>"; };
 		96F24FEE22007D6C0042E78D /* MedianFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MedianFilter.swift; path = Source/Operations/MedianFilter.swift; sourceTree = "<group>"; };
 		BC101EA922454CD20020D74D /* PictureOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PictureOutput.swift; path = Source/Mac/PictureOutput.swift; sourceTree = "<group>"; };
@@ -574,6 +576,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D0DCB7022A15815005147B3 /* CoreVideo.framework in Frameworks */,
 				8D0DCB6E22A15529005147B3 /* Metal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -677,6 +680,7 @@
 		8D0DCB6C22A15529005147B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8D0DCB6F22A15815005147B3 /* CoreVideo.framework */,
 				8D0DCB6D22A15529005147B3 /* Metal.framework */,
 			);
 			name = Frameworks;
